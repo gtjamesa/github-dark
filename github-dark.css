@@ -26,7 +26,7 @@
         --white-7: #767676;
         --black-1: #dfdfdf;
         --black-2: #b2b6bb;
-        --black-3: #d1d5da;
+        /*--black-3: #d1d5da;*/
         --black-3: #b5bac1;
         --black-4: #969a9f;
         --blue-1: #559cf8;
@@ -2276,6 +2276,15 @@
         color: var(--black-3);
     }
 
+    .oauth-org-access-details {
+        background: transparent;
+        color: var(--black-3);
+    }
+
+    .oauth-org-access-details .oauth-org-item:hover {
+        background: var(--white-2);
+    }
+
     /** Misc */
     .box-shadow {
         box-shadow: 0 1px 1px #ffffff1a !important
@@ -2308,7 +2317,7 @@
     }
 
     .project-column {
-        background-color: #303234;
+        background-color: var(--white-2);
     }
 
     .project-header {
