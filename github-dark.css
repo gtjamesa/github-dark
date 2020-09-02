@@ -2327,4 +2327,13 @@
     .project-header {
         background-color: transparent;
     }
+
+    /** Github docs **/
+    .hljs {
+        color: var(--black-2);
+    }
+
+    .markdown-body .lead-mktg p {
+        color: var(--black-4);
+    }
 }
