@@ -1,3 +1,14 @@
+/* ==UserStyle==
+@name           GitHub Dark
+@version        1.0.0
+@description    GitHub Dark theme (fork of GitHub One Dark)
+@namespace      gtjamesa
+@author         James Austen
+@homepageURL    https://github.com/gtjamesa/github-dark
+@supportURL     https://github.com/gtjamesa/github-dark/issues
+@updateURL      https://github.com/gtjamesa/github-dark/raw/master/github-dark.user.css
+==/UserStyle== */
+
 @-moz-document regexp("^https://(gist\\.)?github.com/.*") {
     :root {
         --white-1: #1e2022;
