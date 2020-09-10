@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           GitHub Dark
-@version        1.0.0
+@version        1.0.1
 @description    GitHub Dark theme (fork of GitHub One Dark)
 @namespace      gtjamesa
 @author         James Austen
@@ -2296,8 +2296,11 @@
         border-color: var(--white-3);
     }
 
-    .copyable-terminal {
-        background-color: var(--white-2);
+    .copyable-terminal,
+    .merge-branch-manually .copyable-terminal {
+        background-color: var(--white-1);
+        border-color: var(--white-4);
+        color: var(--black-2);
     }
 
     .commit-message .issue-link {
