@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           GitHub Dark
-@version        1.0.4
+@version        1.0.5
 @description    GitHub Dark theme (fork of GitHub One Dark)
 @namespace      gtjamesa
 @author         James Austen
@@ -2445,6 +2445,14 @@
     .zhc-epic-issue-list .zhc-grid-table .zhc-grid-table__cell,
     .zhc-epic-issue-list .zhc-grid-table .zhc-epic-issue-list-table__cell--light {
         border-color: var(--blue-5);
+    }
+
+    .discussion-sidebar-item .zhc-sidebar-selector-button .zhc-sidebar-selector-button__heading,
+    .discussion-sidebar-item .zh-discussion-sidebar-heading.zh-discussion-sidebar-toggle,
+    .discussion-sidebar-item.zh-pipeline-selector-container .zhc-sidebar-pipeline-selector__label,
+    .discussion-sidebar-item.zh-pipeline-selector-container .zhc-sidebar-pipeline-selector__button,
+    .discussion-sidebar-item.zh-pipeline-selector-container .zhc-sidebar-active-pipeline__name {
+        color: var(--black-3);
     }
 
     /*.zhc-banner {*/
