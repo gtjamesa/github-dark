@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           GitHub Dark
-@version        1.0.1
+@version        1.0.2
 @description    GitHub Dark theme (fork of GitHub One Dark)
 @namespace      gtjamesa
 @author         James Austen
@@ -2339,9 +2339,98 @@
         background-color: var(--white-2) !important;
     }
 
-    .flash-warn {
+    .flash-warn,
+    .zhc-banner {
         background-color: var(--s-chalky);
         border-color: rgba(176,136,0,.2);
         color: var(--white-3);
     }
+
+    /** ZenHub **/
+    .zhc-workspace-form {
+        background-color: var(--white-1);
+    }
+
+    .zhc-workspace-form-input__text-input {
+        background-color: var(--white-2);
+        border-color: var(--white-4);
+        color: var(--black-1);
+    }
+
+    .zhc-workspace-form-input__text-input.zhc-workspace-form-input__input-error {
+        border-color: var(--s-error);
+    }
+
+    .zhc-info-alert {
+        background-color: var(--blue-3);
+        border-color: var(--blue-4);
+        color: var(--black-1);
+    }
+
+    .zhc-workspace-form-section--connected-repos,
+    .zhc-workspace-form-section__title {
+        border-color: var(--white-4);
+    }
+
+    .zhc-workspace-form__footer {
+        background-color: var(--white-2);
+    }
+
+    .zh-epic-issue-container.TimelineItem .zhc-epic-list,
+    .zh-epic-issue-container.TimelineItem .zhc-epic-issue-list__container,
+    .zh-dependency-manager-container.TimelineItem .zhc-dependency {
+        background-color: var(--blue-3);
+        border-color: var(--blue-4);
+        color: var(--black-1);
+    }
+
+    .zhc-dependency-header__status__title {
+        color: var(--black-3);
+    }
+
+    .zhu-text-important {
+        color: var(--black-1);
+    }
+
+    .zhc-dependency-color-grey {
+        color: var(--s-sage);
+    }
+
+    .zhc-dependency-color-red {
+        color: var(--s-error);
+    }
+
+    .zhc-btn.zhc-btn--secondary,
+    .zhc-btn.zhc-btn--default {
+        border-color: var(--white-6);
+        background-color: var(--white-3);
+        background-image: linear-gradient(-180deg, #696464, var(--white-6) 90%);
+        color: var(--black-1);
+    }
+
+    .zhc-collapsible-control:hover.zhc-collapsible-control--border {
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+    .discussion-item-header {
+        color: inherit;
+    }
+
+    .zh-release,
+    .zh-issue-event-dark {
+        color: var(--black-1);
+    }
+
+    .zhc-issue-badge.zhc-issue-badge--blocked {
+        background-color: var(--s-error);
+        border-color: var(--s-error);
+        color: #fff;
+    }
+
+    /*.zhc-banner {*/
+    /*    color: var(--white-3);*/
+    /*    background-color: var(--s-chalky);*/
+    /*    border-color: var(--s-whiskey);*/
+    /*}*/
 }
