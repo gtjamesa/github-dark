@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           GitHub Dark
-@version        1.0.3
+@version        1.0.4
 @description    GitHub Dark theme (fork of GitHub One Dark)
 @namespace      gtjamesa
 @author         James Austen
@@ -2388,20 +2388,22 @@
         color: var(--black-3);
     }
 
-    .zhc-dependency .zhu-text-important {
+    .zhc-dependency .zhu-text-important,
+    .zh-epic-issue-container.TimelineItem .zhu-text-important {
         color: var(--black-1);
     }
 
-    .zhc-dependency-color-grey {
+    .zh-dependency-manager-container.TimelineItem .zhc-dependency .zhc-dependency-color-grey {
         color: var(--s-sage);
     }
 
-    .zhc-dependency-color-red {
+    .zh-dependency-manager-container.TimelineItem .zhc-dependency .zhc-dependency-color-red {
         color: var(--s-error);
     }
 
     .zhc-btn.zhc-btn--secondary,
-    .zhc-btn.zhc-btn--default {
+    .zhc-btn.zhc-btn--default,
+    .zhc-button.zhc-button--color-secondary {
         border-color: var(--white-6);
         background-color: var(--white-3);
         background-image: linear-gradient(-180deg, #696464, var(--white-6) 90%);
@@ -2426,6 +2428,23 @@
         background-color: var(--s-error);
         border-color: var(--s-error);
         color: #fff;
+    }
+
+    .TimelineItem .zhc-epic-issue-list {
+        border-color: var(--blue-5);
+    }
+
+    .zhc-epic-issue-list .zhc-grid-table .zhc-grid-table__cell {
+        background-color: var(--blue-4);
+    }
+
+    .zhc-epic-issue-list .zhc-grid-table .zhc-epic-issue-list-table__cell--light {
+        background-color: var(--blue-3);
+    }
+
+    .zhc-epic-issue-list .zhc-grid-table .zhc-grid-table__cell,
+    .zhc-epic-issue-list .zhc-grid-table .zhc-epic-issue-list-table__cell--light {
+        border-color: var(--blue-5);
     }
 
     /*.zhc-banner {*/
