@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           GitHub Dark
-@version        1.0.2
+@version        1.0.3
 @description    GitHub Dark theme (fork of GitHub One Dark)
 @namespace      gtjamesa
 @author         James Austen
@@ -2379,16 +2379,16 @@
     .zh-epic-issue-container.TimelineItem .zhc-epic-list,
     .zh-epic-issue-container.TimelineItem .zhc-epic-issue-list__container,
     .zh-dependency-manager-container.TimelineItem .zhc-dependency {
-        background-color: var(--blue-3);
-        border-color: var(--blue-4);
-        color: var(--black-1);
+        background-color: var(--blue-3) !important;
+        border-color: var(--blue-4) !important;
+        color: var(--black-1) !important;
     }
 
-    .zhc-dependency-header__status__title {
+    .zhc-dependency .zhc-dependency-header__status__title {
         color: var(--black-3);
     }
 
-    .zhu-text-important {
+    .zhc-dependency .zhu-text-important {
         color: var(--black-1);
     }
 
@@ -2418,7 +2418,7 @@
     }
 
     .zh-release,
-    .zh-issue-event-dark {
+    .TimelineItem-body .zh-issue-event-dark {
         color: var(--black-1);
     }
 
