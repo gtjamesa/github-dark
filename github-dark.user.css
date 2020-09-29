@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           GitHub Dark
-@version        1.0.5
+@version        1.0.6
 @description    GitHub Dark theme (fork of GitHub One Dark)
 @namespace      gtjamesa
 @author         James Austen
@@ -2340,7 +2340,7 @@
     }
 
     .flash-warn,
-    .zhc-banner {
+    .zh-dependency-banner-container .zhc-banner {
         background-color: var(--s-chalky);
         border-color: rgba(176,136,0,.2);
         color: var(--white-3);
