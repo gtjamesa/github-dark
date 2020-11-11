@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           GitHub Dark
-@version        1.0.7
+@version        1.0.8
 @description    GitHub Dark theme (fork of GitHub One Dark)
 @namespace      gtjamesa
 @author         James Austen
@@ -30,6 +30,7 @@
         --blue-5: #405675;
 
         --color-text-primary: #dfdfdf;
+        --color-auto-yellow-1: #27364a;
 
         --box-shadow: #5d5d5d26;
 
@@ -1511,6 +1512,11 @@
     .markdown-body .highlight pre,
     .markdown-body pre {
         background-color: var(--s-background);
+    }
+
+    .blob-code-inner.highlighted,
+    .blob-code-inner .highlighted {
+        background-color: var(--blue-2);
     }
 
     .pl-c1 {
